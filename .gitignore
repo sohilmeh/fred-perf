@@ -1,0 +1,18 @@
+# Build output
+/fred_bench
+/checkfred
+*.o
+
+# Editor / office droppings
+*~
+.~lock.*#
+*.swp
+
+# Benchmark output -- kept local only, see README.md
+/results/
+/results-getppid/
+/data/
+/*.csv
+
+# Third-party clone, see unixbench/README.md
+/byte-unixbench/

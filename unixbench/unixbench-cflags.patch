@@ -1,0 +1,13 @@
+diff --git a/UnixBench/Makefile b/UnixBench/Makefile
+index 3169c03064f0..f2879e2bd596 100644
+--- a/UnixBench/Makefile
++++ b/UnixBench/Makefile
+@@ -119,7 +119,7 @@ endif
+ 
+ 
+ ## generic gcc CFLAGS.  -DTIME must be included.
+-CFLAGS += -Wall -pedantic $(OPTON) -I $(SRCDIR) -DTIME
++CFLAGS += -fpermissive -std=c99 -Wall $(OPTON) -I $(SRCDIR) -DTIME
+ 
+ 
+ ##############################################################################
